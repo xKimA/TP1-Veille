@@ -545,6 +545,10 @@ a:hover, a:active {
           animation: anim3 0.5s 1s backwards;
 }
 
+.bouton {
+  font-size: 2vw;
+}
+
 .deplacementContenuIntro {
   -webkit-animation: deplacementContenuIntro 1s backwards;
           animation: deplacementContenuIntro 1s backwards;
