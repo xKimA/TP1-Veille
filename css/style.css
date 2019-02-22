@@ -493,7 +493,8 @@ a:hover, a:active {
       justify-content: space-around;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  width: 100vw;
+  width: 95vw;
+  background-color: #313131;
 }
 
 .rectangle {
@@ -515,7 +516,7 @@ a:hover, a:active {
           flex: 1 0 50%;
 }
 
-/* À COMPLÉTER - Caractéristiques de chaque rectangle de l'intro...
+/* Caractéristiques de chaque rectangle de l'intro...
    ========================================================================== */
 .rectangle:first-of-type,
 .rectangle:last-of-type {
@@ -527,29 +528,21 @@ a:hover, a:active {
 }
 
 .rectangle:nth-child(1) {
-  background-color: #dddddd;
+  background-color: #601F23;
   -webkit-animation: anim1 0.5s;
           animation: anim1 0.5s;
 }
 
 .rectangle:nth-child(2) {
-  background-color: #7c7c7c;
+  background-color: #313131;
   -webkit-animation: anim2 0.5s 0.5s backwards;
           animation: anim2 0.5s 0.5s backwards;
 }
 
 .rectangle:nth-child(3) {
-  background-color: #505050;
+  background-color: #601F23;
   -webkit-animation: anim3 0.5s 1s backwards;
           animation: anim3 0.5s 1s backwards;
-}
-
-.rectangle:nth-child(4) {
-  background-color: #973131;
-  font-size: 1em;
-  /* max-height : 20vh;*/
-  -webkit-animation: animGo 1s 1.5s backwards;
-          animation: animGo 1s 1.5s backwards;
 }
 
 .deplacementContenuIntro {
@@ -949,23 +942,14 @@ body {
 .box {
   background-color: #601F23;
   color: #fff;
-  border-radius: 5px;
   padding: 10px;
   font-size: 150%;
-}
-
-.box header {
-  background-image: url(../../medias/img-footer.jpg);
 }
 
 .header,
 .footer {
   background-color: #999;
-}
-
-.sidebar2 {
-  background-color: #ccc;
-  color: #444;
+  text-align: center;
 }
 
 /*--------------------------------------------------------------
@@ -1056,8 +1040,10 @@ body {
      object-fit: cover;
 }
 
-.box > header {
-  background-image: url(../../medias/img-footer.jpg);
+.header {
+  background-color: #fafafa;
+  margin-left: 0.2vw;
+  border-radius: 20px;
 }
 
 /*

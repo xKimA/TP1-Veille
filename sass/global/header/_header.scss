@@ -34,8 +34,6 @@ body {
 	background-image: url(../../medias/img-footer.jpg)
 }
 
-
-
 .heading span {
 	display: block;
 }
@@ -73,8 +71,10 @@ body {
     object-fit: cover;
 }
 
-.box > header{
-	background-image: url(../../medias/img-footer.jpg);
+.header{
+	background-color: #fafafa;
+	margin-left:0.2vw;
+	border-radius: 20px;
 }
 /*
 

@@ -79,8 +79,6 @@ body {
 }
 
 
-
-
 .header {
 	grid-area: header;
 }
@@ -185,21 +183,14 @@ body {
 .box {
 	background-color:#601F23;
 	color: #fff;
-	border-radius: 5px;
+	//border-radius: 5px;
 	padding: 10px;
 	font-size: 150%;
-}
-
-.box header{
-	background-image: url(../../medias/img-footer.jpg)
 }
 
 .header,
 .footer {
 	background-color: #999;
+	text-align:center;
 }
 
-.sidebar2 {
-	background-color: #ccc;
-	color: #444;
-}
