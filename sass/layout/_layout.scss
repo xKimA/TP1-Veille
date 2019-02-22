@@ -44,9 +44,8 @@ body {
 		display: flex;
 		flex-direction: column;
 		justify-content:flex-start;
-		margin-bottom:2vh;
-		overflow-x: hidden;
-		overflow-y: auto;
+		overflow: hidden;
+		//overflow-y: auto;
 	}
 
 
@@ -80,7 +79,7 @@ body {
 }
 
 
-}
+
 
 .header {
 	grid-area: header;

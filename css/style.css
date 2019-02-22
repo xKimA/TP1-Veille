@@ -472,10 +472,12 @@ a:hover, a:active {
   border-bottom: 1px solid white;
   font-size: 1rem;
   padding: 0.5rem;
+  margin-bottom: 5vh;
+  margin-top: 2vh;
 }
 
 .menu a:first-child {
-  border-top: 1px solid white;
+  padding-top: 5vh;
 }
 
 /*--------------------------------------------------------------
@@ -803,11 +805,10 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  overflow-x: hidden;
-  overflow-y: auto;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  overflow: hidden;
 }
 
 #chkBoutonBurger:checked ~ .global {
@@ -842,10 +843,6 @@ body {
   -ms-grid-row: 3;
   -ms-grid-column: 1;
   grid-area: content;
-}
-
-.box header {
-  background-image: url("../medias/img-footer.jpg");
 }
 
 .header {
@@ -957,6 +954,10 @@ body {
   font-size: 150%;
 }
 
+.box header {
+  background-image: url(../../medias/img-footer.jpg);
+}
+
 .header,
 .footer {
   background-color: #999;
@@ -1055,7 +1056,7 @@ body {
      object-fit: cover;
 }
 
-.box header {
+.box > header {
   background-image: url(../../medias/img-footer.jpg);
 }
 
