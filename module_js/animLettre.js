@@ -29,7 +29,7 @@ export class AnimLettre {
         */
         //console.log('introduction')
         let i = 0;
-        const tabCouleur = ['#f4f4f4', '#f4f4f4' , '#f4f4f4', '#f4f4f4', '#f4f4f4','#f4f4f4']
+        const tabCouleur = ['#f5f5f5', '#f4f4f4' , '#f4f4f4', '#f4f4f4', '#f4f4f4','#f4f4f4']
 	 
         let elmConteneur = this.creerElement(this.elmParent,
             'section',
