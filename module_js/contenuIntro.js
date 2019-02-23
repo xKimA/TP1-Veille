@@ -4,6 +4,6 @@
 
 export const contenuIntro = {
 	titrePrincipal : "Bienvenue dans la galerie aux diverses couleurs",
-	titreSecondaire : "Page réalisée pour le TP1 de Veille ",
-	titreTernaire : "TIM-640 | 2019"
+	titreSecondaire : "Vous êtes sur la galerie jaune",
+	titreTernaire : "Si la vie te donne des citrons, fait en une limonade :)"
 }

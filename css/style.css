@@ -691,44 +691,44 @@ a:hover, a:active {
 @-webkit-keyframes animationLettre {
   from {
     /* opacity:  0; */
-    -webkit-transform: translateX(-80vw) rotate(180deg) scale(1);
-            transform: translateX(-80vw) rotate(180deg) scale(1);
+    -webkit-transform: translateX(80vh) skewX(20deg) scale(1);
+            transform: translateX(80vh) skewX(20deg) scale(1);
     -webkit-animation-timing-function: cubic-bezier(0.8, 0.01, 0.97, 0.19);
             animation-timing-function: cubic-bezier(0.8, 0.01, 0.97, 0.19);
   }
   50% {
     /* opacity:  .5; */
-    -webkit-transform: translateX(30vw) rotate(180deg) scale(1.5);
-            transform: translateX(30vw) rotate(180deg) scale(1.5);
+    -webkit-transform: translateX(30vh) skewX(50deg) scale(1.5);
+            transform: translateX(30vh) skewX(50deg) scale(1.5);
     -webkit-animation-timing-function: cubic-bezier(0.09, 0.25, 0.19, 1.01);
             animation-timing-function: cubic-bezier(0.09, 0.25, 0.19, 1.01);
   }
   to {
     /* opacity:  1; */
-    -webkit-transform: translateX(0%) rotate(0deg) scale(1);
-            transform: translateX(0%) rotate(0deg) scale(1);
+    -webkit-transform: translateX(0%) skewX(0deg) scale(1);
+            transform: translateX(0%) skewX(0deg) scale(1);
   }
 }
 
 @keyframes animationLettre {
   from {
     /* opacity:  0; */
-    -webkit-transform: translateX(-80vw) rotate(180deg) scale(1);
-            transform: translateX(-80vw) rotate(180deg) scale(1);
+    -webkit-transform: translateX(80vh) skewX(20deg) scale(1);
+            transform: translateX(80vh) skewX(20deg) scale(1);
     -webkit-animation-timing-function: cubic-bezier(0.8, 0.01, 0.97, 0.19);
             animation-timing-function: cubic-bezier(0.8, 0.01, 0.97, 0.19);
   }
   50% {
     /* opacity:  .5; */
-    -webkit-transform: translateX(30vw) rotate(180deg) scale(1.5);
-            transform: translateX(30vw) rotate(180deg) scale(1.5);
+    -webkit-transform: translateX(30vh) skewX(50deg) scale(1.5);
+            transform: translateX(30vh) skewX(50deg) scale(1.5);
     -webkit-animation-timing-function: cubic-bezier(0.09, 0.25, 0.19, 1.01);
             animation-timing-function: cubic-bezier(0.09, 0.25, 0.19, 1.01);
   }
   to {
     /* opacity:  1; */
-    -webkit-transform: translateX(0%) rotate(0deg) scale(1);
-            transform: translateX(0%) rotate(0deg) scale(1);
+    -webkit-transform: translateX(0%) skewX(0deg) scale(1);
+            transform: translateX(0%) skewX(0deg) scale(1);
   }
 }
 
@@ -880,14 +880,14 @@ body {
   display: grid;
   width: 100vw;
   grid-gap: 1em;
-      grid-template-areas: "header" "sidebar" "content" "sidebar2" "footer";
+      grid-template-areas: "header" "sidebar" "content" "sidebar2" "footer";
 }
 
 @media only screen and (min-width: 500px) {
   .conteneur {
     -ms-grid-columns: 20% auto;
         grid-template-columns: 20% auto;
-        grid-template-areas: "header   header" "sidebar  content" "sidebar2 sidebar2" "footer   footer";
+        grid-template-areas: "header   header" "sidebar  content" "sidebar2 sidebar2" "footer   footer";
     min-width: 500px;
   }
 }
@@ -938,7 +938,7 @@ body {
     grid-gap: 20px;
     -ms-grid-columns: 120px auto 120px;
         grid-template-columns: 120px auto 120px;
-        grid-template-areas: "header  header  header" "sidebar content sidebar2" "footer  footer  footer";
+        grid-template-areas: "header  header  header" "sidebar content sidebar2" "footer  footer  footer";
     max-width: 100%;
   }
 }
