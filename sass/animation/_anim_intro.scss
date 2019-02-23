@@ -53,7 +53,7 @@
     border:2px #daa201 solid;
     color:#601F23;
     margin-top:1vh;
-    animation: anim5 0.5s 2s backwards;
+    animation: anim5 1s 2s backwards;
 }
 
 .deplacementContenuIntro {
@@ -113,6 +113,9 @@
     from {
         transform: translateY(-50vh) rotate(-45deg);
 
+    }
+    50%{
+        transform: scale(2, 2);
     }
 
     to {

@@ -552,8 +552,8 @@ a:hover, a:active {
   border: 2px #daa201 solid;
   color: #601F23;
   margin-top: 1vh;
-  -webkit-animation: anim5 0.5s 2s backwards;
-          animation: anim5 0.5s 2s backwards;
+  -webkit-animation: anim5 1s 2s backwards;
+          animation: anim5 1s 2s backwards;
 }
 
 .deplacementContenuIntro {
@@ -670,6 +670,10 @@ a:hover, a:active {
     -webkit-transform: translateY(-50vh) rotate(-45deg);
             transform: translateY(-50vh) rotate(-45deg);
   }
+  50% {
+    -webkit-transform: scale(2, 2);
+            transform: scale(2, 2);
+  }
   to {
     -webkit-transform: translateY(0%) rotate(0);
             transform: translateY(0%) rotate(0);
@@ -680,6 +684,10 @@ a:hover, a:active {
   from {
     -webkit-transform: translateY(-50vh) rotate(-45deg);
             transform: translateY(-50vh) rotate(-45deg);
+  }
+  50% {
+    -webkit-transform: scale(2, 2);
+            transform: scale(2, 2);
   }
   to {
     -webkit-transform: translateY(0%) rotate(0);
