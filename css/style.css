@@ -528,25 +528,32 @@ a:hover, a:active {
 }
 
 .rectangle:nth-child(1) {
-  background-color: #601F23;
+  font-size: 3vw;
   -webkit-animation: anim1 0.5s;
           animation: anim1 0.5s;
 }
 
 .rectangle:nth-child(2) {
-  background-color: #313131;
+  font-size: 2vw;
   -webkit-animation: anim2 0.5s 0.5s backwards;
           animation: anim2 0.5s 0.5s backwards;
 }
 
 .rectangle:nth-child(3) {
-  background-color: #601F23;
+  font-size: 1.5vw;
   -webkit-animation: anim3 0.5s 1s backwards;
           animation: anim3 0.5s 1s backwards;
+  -webkit-animation: anim4 0.5s 2s backwards;
+          animation: anim4 0.5s 2s backwards;
 }
 
 .bouton {
   font-size: 2vw;
+  border: 2px #daa201 solid;
+  color: #601F23;
+  margin-top: 1vh;
+  -webkit-animation: anim5 0.5s 2s backwards;
+          animation: anim5 0.5s 2s backwards;
 }
 
 .deplacementContenuIntro {
@@ -617,6 +624,66 @@ a:hover, a:active {
   to {
     -webkit-transform: translateX(0%) rotate(0);
             transform: translateX(0%) rotate(0);
+  }
+}
+
+@-webkit-keyframes anim4 {
+  from {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  50% {
+    -webkit-transform: rotate(50deg);
+            transform: rotate(50deg);
+  }
+  85% {
+    -webkit-transform: rotate(-50deg);
+            transform: rotate(-50deg);
+  }
+  to {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+}
+
+@keyframes anim4 {
+  from {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  50% {
+    -webkit-transform: rotate(50deg);
+            transform: rotate(50deg);
+  }
+  85% {
+    -webkit-transform: rotate(-50deg);
+            transform: rotate(-50deg);
+  }
+  to {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+}
+
+@-webkit-keyframes anim5 {
+  from {
+    -webkit-transform: translateY(-50vh) rotate(-45deg);
+            transform: translateY(-50vh) rotate(-45deg);
+  }
+  to {
+    -webkit-transform: translateY(0%) rotate(0);
+            transform: translateY(0%) rotate(0);
+  }
+}
+
+@keyframes anim5 {
+  from {
+    -webkit-transform: translateY(-50vh) rotate(-45deg);
+            transform: translateY(-50vh) rotate(-45deg);
+  }
+  to {
+    -webkit-transform: translateY(0%) rotate(0);
+            transform: translateY(0%) rotate(0);
   }
 }
 
@@ -729,47 +796,6 @@ a:hover, a:active {
     /* opacity:  1; */
     -webkit-transform: translateX(0%) skewX(0deg) scale(1);
             transform: translateX(0%) skewX(0deg) scale(1);
-  }
-}
-
-/*--------------------------------------------------------------
-# Animation des lettres
---------------------------------------------------------------*/
-.gallery {
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-columns: 1fr 1fr 1fr;
-      grid-template-columns: 1fr 1fr 1fr;
-  margin-top: 70px;
-  grid-gap: 1em;
-  grid-auto-rows: minmax(220px, auto);
-  position: relative;
-  -webkit-animation-name: lists;
-          animation-name: lists;
-  -webkit-animation-duration: 1s;
-          animation-duration: 1s;
-  -webkit-animation-fill-mode: forwards;
-          animation-fill-mode: forwards;
-  -webkit-animation-timing-function: linear;
-          animation-timing-function: linear;
-  color: black;
-}
-
-@-webkit-keyframes lists {
-  0% {
-    left: -1000px;
-  }
-  100% {
-    left: 0;
-  }
-}
-
-@keyframes lists {
-  0% {
-    left: -1000px;
-  }
-  100% {
-    left: 0;
   }
 }
 

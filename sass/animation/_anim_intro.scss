@@ -30,22 +30,30 @@
 }
 
 .rectangle:nth-child(1) {
-    background-color:#601F23;
+   // background-color:#601F23;
+   font-size:3vw;
     animation: anim1 0.5s;
 }
 
 .rectangle:nth-child(2) {
-    background-color: rgb(49, 49, 49);
+    //background-color: rgb(49, 49, 49);
+    font-size:2vw;
     animation: anim2 0.5s 0.5s backwards;
 }
 
 .rectangle:nth-child(3) {
-    background-color: #601F23;
+    //background-color: #601F23;
+    font-size:1.5vw;
     animation: anim3 0.5s 1s backwards;
+    animation: anim4 0.5s 2s backwards;
 }
 
 .bouton{
     font-size:2vw;
+    border:2px #daa201 solid;
+    color:#601F23;
+    margin-top:1vh;
+    animation: anim5 0.5s 2s backwards;
 }
 
 .deplacementContenuIntro {
@@ -80,6 +88,35 @@
 
     to {
         transform: translateX(0%) rotate(0);
+    }
+}
+
+@keyframes anim4 {
+    from {
+        transform: rotate(0deg) ;
+    }
+
+    50%{
+        transform: rotate(50deg) ;
+    }
+
+    85%{
+        transform: rotate(-50deg) ;
+    }
+
+    to {
+        transform:  rotate(0deg);
+    }
+}
+
+@keyframes anim5 {
+    from {
+        transform: translateY(-50vh) rotate(-45deg);
+
+    }
+
+    to {
+        transform: translateY(0%) rotate(0);
     }
 }
 
