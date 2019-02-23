@@ -684,8 +684,8 @@ a:hover, a:active {
 }
 
 .mot:nth-child(1) > div {
-  -webkit-animation: animationLettre 1s both;
-          animation: animationLettre 1s both;
+  -webkit-animation: animationLettre 0.5s both;
+          animation: animationLettre 0.5s both;
 }
 
 @-webkit-keyframes animationLettre {
@@ -729,6 +729,47 @@ a:hover, a:active {
     /* opacity:  1; */
     -webkit-transform: translateX(0%) skewX(0deg) scale(1);
             transform: translateX(0%) skewX(0deg) scale(1);
+  }
+}
+
+/*--------------------------------------------------------------
+# Animation des lettres
+--------------------------------------------------------------*/
+.gallery {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr;
+  margin-top: 70px;
+  grid-gap: 1em;
+  grid-auto-rows: minmax(220px, auto);
+  position: relative;
+  -webkit-animation-name: lists;
+          animation-name: lists;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+  -webkit-animation-timing-function: linear;
+          animation-timing-function: linear;
+  color: black;
+}
+
+@-webkit-keyframes lists {
+  0% {
+    left: -1000px;
+  }
+  100% {
+    left: 0;
+  }
+}
+
+@keyframes lists {
+  0% {
+    left: -1000px;
+  }
+  100% {
+    left: 0;
   }
 }
 
