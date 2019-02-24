@@ -472,13 +472,38 @@ a:hover, a:active {
   border-bottom: 1px solid white;
   font-size: 2rem;
   padding: 0.5rem;
-  -webkit-animation: animA 1s backwards;
-          animation: animA 1s backwards;
+  -webkit-animation: animA 0.5s backwards;
+          animation: animA 0.5s backwards;
 }
 
-@media only screen and (max-width: 500px) {
-  .menu a:first-child {
-    padding-top: 5vh !important;
+.menu a:first-child {
+  border-top: none;
+}
+
+.menu a:hover {
+  background-color: #404040;
+  color: #daa201;
+}
+
+@-webkit-keyframes animA {
+  from {
+    -webkit-transform: translateY(-80vh);
+            transform: translateY(-80vh);
+  }
+  to {
+    -webkit-transform: translateY(0vh);
+            transform: translateY(0vh);
+  }
+}
+
+@keyframes animA {
+  from {
+    -webkit-transform: translateY(-80vh);
+            transform: translateY(-80vh);
+  }
+  to {
+    -webkit-transform: translateY(0vh);
+            transform: translateY(0vh);
   }
 }
 
@@ -1051,7 +1076,7 @@ body {
   }
   .menu {
     /*Propriété comme item flex - ne peut s'étirer en hauteur*/
-    width: 96vw;
+    width: 98vw;
     margin-bottom: 10px;
     border-radius: 10px;
     -webkit-box-flex: 0;

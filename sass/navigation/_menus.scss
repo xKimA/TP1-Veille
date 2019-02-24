@@ -6,18 +6,27 @@
 	padding: 0.5rem;
 	//margin-bottom:5vh;
 	//margin-top:2vh;
-	animation:animA 1s backwards;
+	animation:animA 0.5s backwards;
+	//align-content: center;
 }
 
 .menu a:first-child {
-	//padding-top:5vh;
+	border-top: none;
+	
 }
 
+.menu a:hover{
+	background-color:#404040;
+	color:#daa201;
+}
 
-@media only screen and (max-width: 500px) {
-	
-	.menu a:first-child {
-		padding-top:5vh !important;
-	}
+@keyframes animA{
+    from {
+       transform: translateY(-80vh);
+    }
+  
+    to {
+        transform: translateY(0vh);
+    }
 }
 
