@@ -4,12 +4,18 @@
 	border-bottom: 1px solid white;
 	font-size: 2rem;
 	padding: 0.5rem;
-	margin-bottom:5vh;
-	margin-top:2vh;
+	//margin-bottom:5vh;
+	//margin-top:2vh;
 }
 
 .menu a:first-child {
-	padding-top:5vh;
+	//padding-top:5vh;
 }
 
 
+@media only screen and (max-width: 500px) {
+	
+	.menu a:first-child {
+		padding-top:5vh !important;
+	}
+}

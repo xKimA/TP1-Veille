@@ -83,28 +83,36 @@
 
 @keyframes anim3 {
     from {
+        opacity:  0;
         transform: translateX(200%) rotate(-45deg);
+        
     }
 
     to {
+        opacity:  1;
         transform: translateX(0%) rotate(0);
     }
 }
 
 @keyframes anim4 {
     from {
+        opacity:  0;
         transform: rotate(0deg) ;
+       
     }
 
     50%{
         transform: rotate(50deg) ;
+       
     }
 
     85%{
+        opacity:  0.5;
         transform: rotate(-50deg) ;
     }
 
     to {
+        opacity:  1;
         transform:  rotate(0deg);
     }
 }
@@ -136,12 +144,12 @@
 
 @keyframes deplacementContenuIntro { 
     from {
-        transform: translateX(0vw);
+        transform: translateY(0vh);
      
     }
 
     to {
-        transform: translateX(-100vw);
+        transform: translateY(-100vh);
        
     }
 }
