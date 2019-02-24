@@ -3,12 +3,28 @@
 }
 
 
+.gallery{
+    animation: animFond 10s;
+}
+
 @keyframes animImg{
     from {
         opacity:0;
     }
    
     to {
+        opacity:1;
+    }
+}
+
+@keyframes animFond{
+    from {
+        background-color:#daa201;
+        opacity:0.5;
+    }
+  
+    to {
+        background-color:#601F23;
         opacity:1;
     }
 }

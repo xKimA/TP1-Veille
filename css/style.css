@@ -778,10 +778,11 @@ a:hover, a:active {
 @-webkit-keyframes animationLettre {
   from {
     /* opacity:  0; */
-    -webkit-transform: translateX(80vh) skewX(20deg) scale(1);
-            transform: translateX(80vh) skewX(20deg) scale(1);
+    -webkit-transform: translateX(80vw) skewX(20deg) scale(1);
+            transform: translateX(80vw) skewX(20deg) scale(1);
     -webkit-animation-timing-function: cubic-bezier(0.8, 0.01, 0.97, 0.19);
             animation-timing-function: cubic-bezier(0.8, 0.01, 0.97, 0.19);
+    color: #601F23;
   }
   50% {
     /* opacity:  .5; */
@@ -789,21 +790,24 @@ a:hover, a:active {
             transform: translateX(30vh) skewX(50deg) scale(1.5);
     -webkit-animation-timing-function: cubic-bezier(0.09, 0.25, 0.19, 1.01);
             animation-timing-function: cubic-bezier(0.09, 0.25, 0.19, 1.01);
+    opacity: 0.5;
   }
   to {
     /* opacity:  1; */
     -webkit-transform: translateX(0%) skewX(0deg) scale(1);
             transform: translateX(0%) skewX(0deg) scale(1);
+    opacity: 1;
   }
 }
 
 @keyframes animationLettre {
   from {
     /* opacity:  0; */
-    -webkit-transform: translateX(80vh) skewX(20deg) scale(1);
-            transform: translateX(80vh) skewX(20deg) scale(1);
+    -webkit-transform: translateX(80vw) skewX(20deg) scale(1);
+            transform: translateX(80vw) skewX(20deg) scale(1);
     -webkit-animation-timing-function: cubic-bezier(0.8, 0.01, 0.97, 0.19);
             animation-timing-function: cubic-bezier(0.8, 0.01, 0.97, 0.19);
+    color: #601F23;
   }
   50% {
     /* opacity:  .5; */
@@ -811,17 +815,24 @@ a:hover, a:active {
             transform: translateX(30vh) skewX(50deg) scale(1.5);
     -webkit-animation-timing-function: cubic-bezier(0.09, 0.25, 0.19, 1.01);
             animation-timing-function: cubic-bezier(0.09, 0.25, 0.19, 1.01);
+    opacity: 0.5;
   }
   to {
     /* opacity:  1; */
     -webkit-transform: translateX(0%) skewX(0deg) scale(1);
             transform: translateX(0%) skewX(0deg) scale(1);
+    opacity: 1;
   }
 }
 
 .gallery-item {
   -webkit-animation: animImg 10s;
           animation: animImg 10s;
+}
+
+.gallery {
+  -webkit-animation: animFond 10s;
+          animation: animFond 10s;
 }
 
 @-webkit-keyframes animImg {
@@ -838,6 +849,28 @@ a:hover, a:active {
     opacity: 0;
   }
   to {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes animFond {
+  from {
+    background-color: #daa201;
+    opacity: 0.5;
+  }
+  to {
+    background-color: #601F23;
+    opacity: 1;
+  }
+}
+
+@keyframes animFond {
+  from {
+    background-color: #daa201;
+    opacity: 0.5;
+  }
+  to {
+    background-color: #601F23;
     opacity: 1;
   }
 }
