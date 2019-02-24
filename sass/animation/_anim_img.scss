@@ -1,0 +1,14 @@
+.gallery-item{
+    animation: animImg 10s;
+}
+
+
+@keyframes animImg{
+    from {
+        opacity:0;
+    }
+   
+    to {
+        opacity:1;
+    }
+}
