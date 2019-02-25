@@ -586,6 +586,11 @@ a:hover, a:active {
           animation: anim5 1s 2s backwards;
 }
 
+.bouton:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
 .deplacementContenuIntro {
   -webkit-animation: deplacementContenuIntro 1s backwards;
           animation: deplacementContenuIntro 1s backwards;
@@ -1189,8 +1194,8 @@ body {
           flex: 1 0 24rem;
   /* Margin value should be half of grid-gap value as margins on flex items don't collapse */
   margin: 1rem;
-  -webkit-box-shadow: 0.3rem 0.4rem 0.4rem rgba(0, 0, 0, 0.4);
-          box-shadow: 0.3rem 0.4rem 0.4rem rgba(0, 0, 0, 0.4);
+  -webkit-box-shadow: 0.1rem 0.2rem 0.1rem #71d6cc;
+          box-shadow: 0.1rem 0.2rem 0.1rem #71d6cc;
   overflow: hidden;
 }
 
@@ -1207,8 +1212,9 @@ body {
 }
 
 .gallery-image:hover {
-  -webkit-transform: scale(1.15);
-          transform: scale(1.15);
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+  opacity: 0.8;
 }
 
 .banniere {
