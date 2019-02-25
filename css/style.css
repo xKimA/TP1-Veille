@@ -579,8 +579,8 @@ a:hover, a:active {
 
 .bouton {
   font-size: 2vw;
-  border: 2px #daa201 solid;
-  color: #601F23;
+  border: 2px #02a0e7 solid;
+  color: #02a0e7;
   margin-top: 1vh;
   -webkit-animation: anim5 1s 2s backwards;
           animation: anim5 1s 2s backwards;

@@ -54,7 +54,7 @@ export class Introduction {
 
         let elmBouton = this.creerElement(elmConteneur,
             'button',
-            'Pressez',
+            'Naviguez',
             'bouton')
         /* On garde une référence sur la fonction terminerIntro */
         let refTerminerIntro = this.terminerIntro.bind(this)
