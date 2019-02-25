@@ -23,7 +23,7 @@ body {
 	}
 
 	.boutonBurger {
-		background: linear-gradient(to bottom, #daa201 0%,  #daa201 20%, transparent 20%, transparent 40%, #daa201 40%,#daa201 60%, transparent 60%, transparent 80%, #daa201 80%, #daa201 100%);
+		background: linear-gradient(to bottom, #3ab9b3 0%,  #3ab9b3 20%, transparent 20%, transparent 40%, #3ab9b3 40%,#3ab9b3 60%, transparent 60%, transparent 80%, #3ab9b3 80%, #3ab9b3 100%);
 		height: 48px;
 		width: 48px;
 		margin: 1%;
@@ -66,12 +66,12 @@ body {
 
 .sidebar {
 	grid-area: sidebar;
-	background-image: url("../medias/banniere.jpg");
+	background-image: url("../medias/banniereBleue.jpg");
 }
 
 .sidebar2 {
 	grid-area: sidebar2;
-	background-image: url("../medias/banniere.jpg");
+	background-image: url("../medias/banniereBleue.jpg");
 }
 
 .content {
@@ -87,12 +87,12 @@ body {
 
 .footer {
 	grid-area: footer;
-	background-image: url("../medias/img-footer.jpg");
+	background-image: url("../medias/img-footer-bleu.jpg");
 	height:13vh;
 }
 
 .conteneur {
-	background-color: #f5f5f5;
+	background-color: #e0fffa;
 	color: #aaa;
 }
 /* conteneur est un élément flex et en même temps un conteneur grid */
@@ -146,7 +146,7 @@ body {
 
 	.menu {
 		/*Propriété comme item flex - ne peut s'étirer en hauteur*/
-		width: 98vw;
+		width: 99vw;
 		margin-bottom: 10px;
 		border-radius : 10px;
 		flex: 0 0 100%;
@@ -183,7 +183,7 @@ body {
 
 
 .box {
-	background-color:#601F23;
+	background-color:#252525;
 	color: #fff;
 	//border-radius: 5px;
 	padding: 10px;
