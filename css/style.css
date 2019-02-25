@@ -643,70 +643,58 @@ a:hover, a:active {
 @-webkit-keyframes anim3 {
   from {
     opacity: 0;
-    -webkit-transform: translateX(200%) rotate(-45deg);
-            transform: translateX(200%) rotate(-45deg);
+    -webkit-transform: translateX(200%);
+            transform: translateX(200%);
   }
   to {
     opacity: 1;
-    -webkit-transform: translateX(0%) rotate(0);
-            transform: translateX(0%) rotate(0);
+    -webkit-transform: translateX(0%);
+            transform: translateX(0%);
   }
 }
 
 @keyframes anim3 {
   from {
     opacity: 0;
-    -webkit-transform: translateX(200%) rotate(-45deg);
-            transform: translateX(200%) rotate(-45deg);
+    -webkit-transform: translateX(200%);
+            transform: translateX(200%);
   }
   to {
     opacity: 1;
-    -webkit-transform: translateX(0%) rotate(0);
-            transform: translateX(0%) rotate(0);
+    -webkit-transform: translateX(0%);
+            transform: translateX(0%);
   }
 }
 
 @-webkit-keyframes anim4 {
   from {
     opacity: 0;
-    -webkit-transform: rotate(0deg);
-            transform: rotate(0deg);
-  }
-  50% {
-    -webkit-transform: rotate(50deg);
-            transform: rotate(50deg);
+    -webkit-transform: skewY(20deg);
+            transform: skewY(20deg);
   }
   85% {
     opacity: 0.5;
-    -webkit-transform: rotate(-50deg);
-            transform: rotate(-50deg);
   }
   to {
     opacity: 1;
-    -webkit-transform: rotate(0deg);
-            transform: rotate(0deg);
+    -webkit-transform: skewY(0deg);
+            transform: skewY(0deg);
   }
 }
 
 @keyframes anim4 {
   from {
     opacity: 0;
-    -webkit-transform: rotate(0deg);
-            transform: rotate(0deg);
-  }
-  50% {
-    -webkit-transform: rotate(50deg);
-            transform: rotate(50deg);
+    -webkit-transform: skewY(20deg);
+            transform: skewY(20deg);
   }
   85% {
     opacity: 0.5;
-    -webkit-transform: rotate(-50deg);
-            transform: rotate(-50deg);
   }
   to {
     opacity: 1;
-    -webkit-transform: rotate(0deg);
-            transform: rotate(0deg);
+    -webkit-transform: skewY(0deg);
+            transform: skewY(0deg);
   }
 }
 
@@ -810,17 +798,17 @@ a:hover, a:active {
 
 @-webkit-keyframes animationLettre {
   from {
-    /* opacity:  0; */
-    -webkit-transform: translateX(80vw) skewX(20deg) scale(1);
-            transform: translateX(80vw) skewX(20deg) scale(1);
+    opacity: 0;
+    -webkit-transform: translateX(-80vw) skewX(20deg) scale(1);
+            transform: translateX(-80vw) skewX(20deg) scale(1);
     -webkit-animation-timing-function: cubic-bezier(0.8, 0.01, 0.97, 0.19);
             animation-timing-function: cubic-bezier(0.8, 0.01, 0.97, 0.19);
-    color: #601F23;
+    color: #252525;
   }
   50% {
     /* opacity:  .5; */
-    -webkit-transform: translateX(30vh) skewX(50deg) scale(1.5);
-            transform: translateX(30vh) skewX(50deg) scale(1.5);
+    -webkit-transform: translateX(-30vh) skewX(50deg) scale(1.5);
+            transform: translateX(-30vh) skewX(50deg) scale(1.5);
     -webkit-animation-timing-function: cubic-bezier(0.09, 0.25, 0.19, 1.01);
             animation-timing-function: cubic-bezier(0.09, 0.25, 0.19, 1.01);
     opacity: 0.5;
@@ -835,17 +823,17 @@ a:hover, a:active {
 
 @keyframes animationLettre {
   from {
-    /* opacity:  0; */
-    -webkit-transform: translateX(80vw) skewX(20deg) scale(1);
-            transform: translateX(80vw) skewX(20deg) scale(1);
+    opacity: 0;
+    -webkit-transform: translateX(-80vw) skewX(20deg) scale(1);
+            transform: translateX(-80vw) skewX(20deg) scale(1);
     -webkit-animation-timing-function: cubic-bezier(0.8, 0.01, 0.97, 0.19);
             animation-timing-function: cubic-bezier(0.8, 0.01, 0.97, 0.19);
-    color: #601F23;
+    color: #252525;
   }
   50% {
     /* opacity:  .5; */
-    -webkit-transform: translateX(30vh) skewX(50deg) scale(1.5);
-            transform: translateX(30vh) skewX(50deg) scale(1.5);
+    -webkit-transform: translateX(-30vh) skewX(50deg) scale(1.5);
+            transform: translateX(-30vh) skewX(50deg) scale(1.5);
     -webkit-animation-timing-function: cubic-bezier(0.09, 0.25, 0.19, 1.01);
             animation-timing-function: cubic-bezier(0.09, 0.25, 0.19, 1.01);
     opacity: 0.5;

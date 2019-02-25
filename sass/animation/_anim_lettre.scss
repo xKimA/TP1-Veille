@@ -16,15 +16,15 @@
 
 @keyframes animationLettre {
     from {
-        /* opacity:  0; */
-        transform: translateX(80vw) skewX(20deg) scale(1);
+        opacity:  0;
+        transform: translateX(-80vw) skewX(20deg) scale(1);
         animation-timing-function: cubic-bezier(.8, .01, .97, .19);
-        color:#601F23;
+        color:#252525;
     }
 
     50% {
         /* opacity:  .5; */
-        transform: translateX(30vh) skewX(50deg) scale(1.5);
+        transform: translateX(-30vh) skewX(50deg) scale(1.5);
         animation-timing-function: cubic-bezier(.09, .25, .19, 1.01);
         opacity:0.5;
         
