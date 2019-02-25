@@ -377,7 +377,7 @@ select,
 optgroup,
 textarea {
   color: #404040;
-  font-family: "Oswald", sans-serif;
+  font-family: "Seaweed Script", cursive;
   font-size: 16px;
   font-size: 1rem;
   line-height: 1.5;
@@ -481,11 +481,11 @@ a:hover, a:active {
 }
 
 .menu a:hover {
-  color: #daa201;
+  color: #3ab9b3;
 }
 
 .menu:hover {
-  background-color: #404040;
+  background-color: #252525;
 }
 
 @-webkit-keyframes animA {
@@ -579,8 +579,8 @@ a:hover, a:active {
 
 .bouton {
   font-size: 2vw;
-  border: 2px #02a0e7 solid;
-  color: #02a0e7;
+  border: 2px #3ab9b3 solid;
+  color: #3ab9b3;
   margin-top: 1vh;
   -webkit-animation: anim5 1s 2s backwards;
           animation: anim5 1s 2s backwards;
@@ -957,7 +957,7 @@ body {
 }
 
 .menu {
-  background-color: #93ece3;
+  background-color: #71d6cc;
   text-align: center;
   /*Pour cet exemple, on fixe la largeur du menu à 100% ou 100vw*/
   width: 100vw;
@@ -1025,6 +1025,8 @@ body {
   grid-area: footer;
   background-image: url("../medias/img-footer-bleu.jpg");
   height: 13vh;
+  color: #252525 !important;
+  font-size: 2vw !important;
 }
 
 .conteneur {
