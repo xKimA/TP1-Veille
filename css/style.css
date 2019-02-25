@@ -481,8 +481,11 @@ a:hover, a:active {
 }
 
 .menu a:hover {
-  background-color: #404040;
   color: #daa201;
+}
+
+.menu:hover {
+  background-color: #404040;
 }
 
 @-webkit-keyframes animA {
